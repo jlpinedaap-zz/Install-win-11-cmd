@@ -29,6 +29,6 @@ EXIT (out diskpart)
 
 cd /d F:\sources (located sources disk)
 
-dism / apply-image /imagefile:install.esd /index:1 / applydir:W:\
+dism /apply-image /imagefile:install.esd /index:1 /applydir:W:\
 
 bcdboot W:\Windows /s S: /f ALL
